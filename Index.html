@@ -1,0 +1,1130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lakshmi Computer, Sivakasi | Laptops, Desktops, PC Building, CCTV Sales & Service</title>
+<meta name="description" content="Lakshmi Computer, Sivakasi: buy laptops, desktops and CCTV cameras, get custom PC builds, and book laptop, computer and CCTV service. Book directly on WhatsApp.">
+<meta name="theme-color" content="#09090B">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;700;800;900&family=Noto+Sans+Tamil:wght@500;700&display=swap" rel="stylesheet">
+
+<style>
+:root{
+  /* Change --accent to retheme the whole site */
+  --accent:#FF5A1F;
+  --accent-soft:rgba(255,90,31,.14);
+  --bg:#09090B;
+  --bg2:#101014;
+  --card:#16161B;
+  --text:#F3F3F5;
+  --muted:#A2A2AD;
+  --line:#2A2A33;
+  --star:#FFB020;
+  --wa:#1FA855;
+  --wa-dark:#168244;
+  --radius:16px;
+  --font:"Archivo","Noto Sans Tamil",system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;scroll-padding-top:76px;background:var(--bg)}
+body{font-family:var(--font);color:var(--text);background:var(--bg);line-height:1.65;font-size:17px;-webkit-text-size-adjust:100%}
+[hidden]{display:none!important}
+img,svg{max-width:100%;display:block}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--accent);outline-offset:3px;border-radius:6px}
+.wrap{width:min(1160px,100% - 40px);margin-inline:auto}
+section{padding:88px 0}
+h1,h2,h3{line-height:1.08;letter-spacing:-.03em}
+h2{font-size:clamp(2rem,4.6vw,3.2rem);font-weight:800;margin-bottom:14px}
+.lead{color:var(--muted);max-width:60ch;margin-bottom:40px;font-size:1.05rem}
+
+/* Buttons: pill style */
+.btn{display:inline-flex;align-items:center;gap:10px;font:inherit;font-weight:700;text-decoration:none;border:0;cursor:pointer;padding:15px 28px;border-radius:99px;transition:transform .15s,background .15s,box-shadow .15s}
+.btn:hover{transform:translateY(-2px)}
+.btn-wa{background:var(--wa);color:#fff}
+.btn-wa:hover{background:var(--wa-dark)}
+.btn-line{background:transparent;color:var(--text);border:1.5px solid rgba(255,255,255,.35)}
+.btn-line:hover{border-color:var(--accent);color:var(--accent)}
+.btn svg{width:20px;height:20px;flex:none}
+
+/* Header */
+header{position:sticky;top:0;z-index:20;background:rgba(9,9,11,.82);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);color:var(--text);border-bottom:1px solid var(--line)}
+.nav{display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:68px}
+.brand{font-weight:900;font-size:1.2rem;letter-spacing:-.02em;text-decoration:none;white-space:nowrap}
+.brand small{display:block;font-size:.7rem;font-weight:500;color:var(--accent);letter-spacing:.02em;margin-top:-3px}
+nav ul{display:flex;gap:30px;list-style:none}
+nav a{text-decoration:none;font-weight:500;font-size:.95rem;color:var(--muted);transition:color .15s}
+nav a:hover{color:var(--text)}
+.nav .btn{padding:10px 20px;font-size:.92rem}
+@media(max-width:820px){nav ul{display:none}}
+
+/* Hero */
+.hero{position:relative;overflow:hidden;background:var(--bg);color:var(--text);padding:72px 0 96px}
+.hero::before{content:"";position:absolute;width:760px;height:760px;right:-200px;top:-260px;background:radial-gradient(circle,rgba(255,90,31,.38),transparent 62%);pointer-events:none}
+.hero::after{content:"";position:absolute;width:520px;height:520px;left:-220px;bottom:-280px;background:radial-gradient(circle,rgba(36,87,245,.22),transparent 65%);pointer-events:none}
+.hero-grid{position:relative;z-index:1;display:grid;grid-template-columns:1.1fr .9fr;gap:56px;align-items:center}
+.sign{display:inline-block;background:var(--accent-soft);color:var(--accent);border:1px solid rgba(255,90,31,.45);padding:7px 16px;font-weight:700;font-size:.88rem;border-radius:99px;margin-bottom:24px}
+.hero h1{font-size:clamp(3rem,8.4vw,6.2rem);font-weight:900;letter-spacing:-.045em;line-height:.98}
+.hero h1 span{display:block;color:var(--accent)}
+.tamil{font-family:"Noto Sans Tamil",var(--font);font-weight:700;font-size:1.3rem;margin:18px 0 20px;color:var(--text)}
+.hero p.sub{max-width:46ch;color:var(--muted);margin-bottom:32px;font-size:1.1rem}
+.hero-cta{display:flex;flex-wrap:wrap;gap:12px}
+.hero-cta .btn-line{color:var(--text)}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:34px}
+.chips li{list-style:none;border:1px solid var(--line);background:rgba(255,255,255,.03);padding:6px 14px;border-radius:99px;font-size:.88rem;color:var(--muted)}
+
+/* Booking card */
+.book{background:var(--card);color:var(--text);border:1px solid var(--line);border-radius:24px;padding:30px;box-shadow:0 30px 80px rgba(0,0,0,.55),0 0 0 1px rgba(255,90,31,.08)}
+.book h2{font-size:1.5rem;margin-bottom:4px}
+.book .hint{color:var(--muted);font-size:.93rem;margin-bottom:18px}
+label{display:block;font-weight:700;font-size:.9rem;margin:14px 0 6px}
+input,select,textarea{width:100%;font:inherit;padding:13px 15px;border:1.5px solid var(--line);border-radius:12px;background:var(--bg2);color:var(--text)}
+input::placeholder,textarea::placeholder{color:#6F6F7A}
+select option{background:var(--bg2);color:var(--text)}
+textarea{resize:vertical;min-height:84px}
+input:focus,select:focus,textarea:focus{outline:none;border-color:var(--accent);box-shadow:0 0 0 3px var(--accent-soft)}
+.book .btn{width:100%;justify-content:center;margin-top:20px;font-size:1.05rem}
+.err{color:#FF7A6B;font-size:.88rem;margin-top:8px;min-height:1.2em}
+@media(max-width:900px){.hero-grid{grid-template-columns:1fr}}
+
+/* PC build (now under the hero) */
+.build{position:relative;overflow:hidden;background:linear-gradient(135deg,#1C0C06 0%,var(--bg2) 55%,var(--bg) 100%);color:var(--text);border-block:1px solid var(--line)}
+.build::before{content:"";position:absolute;width:560px;height:560px;left:-180px;top:-260px;background:radial-gradient(circle,rgba(255,90,31,.28),transparent 65%);pointer-events:none}
+.build-grid{position:relative;display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:center}
+.build h2{color:var(--text);font-size:clamp(2.1rem,5vw,3.6rem)}
+.build p{color:var(--muted);margin-bottom:26px;max-width:50ch;font-size:1.05rem}
+.build .btn-wa{background:var(--accent);color:#fff;box-shadow:0 10px 30px rgba(255,90,31,.35)}
+.build .btn-wa:hover{background:#ff7240}
+.uses{display:grid;gap:12px;counter-reset:u}
+.uses div{counter-increment:u;position:relative;background:rgba(255,255,255,.04);border:1px solid var(--line);border-radius:var(--radius);padding:18px 20px 18px 70px}
+.uses div::before{content:counter(u,decimal-leading-zero);position:absolute;left:20px;top:16px;font-weight:900;font-size:1.5rem;color:var(--accent);letter-spacing:-.02em}
+.uses strong{display:block;font-size:1.08rem}
+.uses span{font-size:.93rem;color:var(--muted)}
+@media(max-width:860px){.build-grid{grid-template-columns:1fr}}
+
+
+/* Parts showcase */
+.parts-layout{display:grid;grid-template-columns:1.05fr 1fr;gap:20px}
+.parts-small{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.part{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;display:flex;flex-direction:column;transition:border-color .2s}
+.part:hover{border-color:var(--accent)}
+.part-media{aspect-ratio:4/3;background:radial-gradient(circle at 50% 40%,#1f1f27,var(--bg2));display:grid;place-items:center;overflow:hidden}
+.part-media img{width:100%;height:100%;object-fit:cover}
+.part-media svg.ph{width:34%;color:var(--accent);opacity:.85}
+.part-body{padding:18px 20px 22px;display:flex;flex-direction:column;gap:6px;flex:1}
+.part-body h3{font-size:1.2rem}
+.part-body p{color:var(--muted);font-size:.93rem;flex:1}
+.part-body .btn{align-self:flex-start;margin-top:10px;padding:10px 18px;font-size:.9rem}
+.part-big .part-media{aspect-ratio:auto;flex:1;min-height:520px;background:radial-gradient(circle at 50% 45%,#1d1d26,var(--bg))}
+.part-big{--cab-fit:contain} /* contain = whole GIF visible | cover = GIF fills the card (edges may crop) */
+.part-big .part-media{position:relative}
+.part-big .part-media img{position:absolute;inset:0;width:100%;height:100%;object-fit:var(--cab-fit)}
+.rgb-case{width:min(300px,72%);height:auto;animation:rgbhue 7s linear infinite}
+.spin{transform-box:fill-box;transform-origin:center;animation:spin 1.6s linear infinite}
+.spin.slow{animation-duration:2.6s}
+.pulse{animation:pulse 2.4s ease-in-out infinite}
+@keyframes rgbhue{to{filter:hue-rotate(360deg)}}
+@keyframes spin{to{transform:rotate(360deg)}}
+@keyframes pulse{0%,100%{opacity:.35}50%{opacity:1}}
+@media(max-width:900px){.parts-layout{grid-template-columns:1fr}.part-big .part-media{min-height:420px}}
+@media(max-width:480px){.parts-small{grid-template-columns:1fr}}
+@media(prefers-reduced-motion:reduce){.rgb-case,.spin,.pulse{animation:none}}
+
+/* Products */
+.cat{display:grid;grid-template-columns:260px 1fr auto;gap:28px;align-items:start;padding:32px 0;border-top:1px solid var(--line)}
+.cat:last-child{border-bottom:1px solid var(--line)}
+.cat h3{font-size:1.5rem;font-weight:800}
+.cat .tag{display:inline-block;background:var(--accent-soft);color:var(--accent);padding:3px 12px;border-radius:99px;font-size:.8rem;font-weight:700;margin-top:10px}
+.cat ul{list-style:none;display:grid;grid-template-columns:repeat(2,1fr);gap:8px 24px}
+.cat li{padding-left:20px;position:relative;color:var(--muted)}
+.cat li::before{content:"";position:absolute;left:0;top:.72em;width:8px;height:8px;background:var(--accent);border-radius:50%}
+.cat .btn{padding:11px 20px;font-size:.92rem;white-space:nowrap}
+@media(max-width:860px){.cat{grid-template-columns:1fr;gap:14px}.cat ul{grid-template-columns:1fr}}
+
+
+/* Catalog by category */
+.cat-tabs{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:28px}
+.cat-tabs button{font:inherit;font-weight:700;font-size:.92rem;color:var(--muted);background:var(--card);border:1.5px solid var(--line);border-radius:99px;padding:10px 20px;cursor:pointer;transition:border-color .15s,color .15s,background .15s}
+.cat-tabs button:hover{color:var(--text);border-color:#444450}
+.cat-tabs button[aria-pressed="true"]{color:#fff;background:var(--accent);border-color:var(--accent)}
+.prod-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:18px}
+.prod{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;display:flex;flex-direction:column;transition:border-color .2s,transform .2s}
+.prod:hover{border-color:var(--accent);transform:translateY(-3px)}
+.prod-img{aspect-ratio:1/1;background:radial-gradient(circle at 50% 40%,#1f1f27,var(--bg2));display:grid;place-items:center;overflow:hidden}
+.prod-img img{width:100%;height:100%;object-fit:cover}
+.prod-img svg{width:30%;color:var(--accent);opacity:.8}
+.prod-body{padding:16px 18px 20px;display:flex;flex-direction:column;gap:4px;flex:1}
+.prod-cat{font-size:.78rem;font-weight:700;color:var(--accent)}
+.prod-body h3{font-size:1.05rem;line-height:1.25}
+.prod-desc{color:var(--muted);font-size:.9rem;flex:1}
+.prod-price{font-weight:800;font-size:1.15rem;margin-top:6px}
+.prod-body .btn{margin-top:12px;padding:11px 16px;font-size:.9rem;justify-content:center}
+.cat-more{margin-top:34px}
+@media(prefers-reduced-motion:reduce){.prod:hover{transform:none}}
+
+
+/* Catalog search + cart */
+.cat-bar{margin-bottom:16px}
+.cat-bar input{max-width:520px;border-radius:99px;padding:14px 20px}
+.cat-tabs button .n{opacity:.6;margin-left:6px;font-weight:500}
+.cat-count{color:var(--muted);font-size:.9rem;margin-bottom:18px}
+.prod-desc{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.prod-act{margin-top:12px}
+.add-btn{width:100%;justify-content:center;padding:11px 16px;font-size:.92rem;background:var(--accent);color:#fff}
+.add-btn:hover{background:#ff7240}
+.stepper{display:flex;align-items:center;justify-content:space-between;border:1.5px solid var(--accent);border-radius:99px;padding:3px}
+.stepper button{width:38px;height:38px;border:0;border-radius:50%;background:var(--accent-soft);color:var(--accent);font:inherit;font-size:1.3rem;font-weight:800;cursor:pointer;line-height:1}
+.stepper button:hover{background:var(--accent);color:#fff}
+.stepper span{font-weight:800;min-width:2ch;text-align:center}
+.cat-more{display:flex;flex-wrap:wrap;gap:12px;align-items:center}
+.no-res{color:var(--muted);padding:30px 0}
+.cart-btn{display:inline-flex;align-items:center;gap:8px;background:transparent;border:1.5px solid var(--line);color:var(--text);border-radius:99px;padding:8px 16px;font:inherit;font-weight:700;cursor:pointer}
+.cart-btn:hover{border-color:var(--accent)}
+.cart-btn svg{width:20px;height:20px}
+.cart-btn b{background:var(--accent);color:#fff;border-radius:99px;min-width:22px;height:22px;display:grid;place-items:center;font-size:.8rem;padding:0 6px}
+.nav-right{display:flex;align-items:center;gap:10px}
+.cart-fab{position:fixed;left:16px;bottom:16px;z-index:30;background:var(--accent);color:#fff;box-shadow:0 10px 30px rgba(0,0,0,.5);padding:14px 22px}
+.cart-fab:hover{background:#ff7240}
+.cart-fab svg{width:20px;height:20px}
+dialog.cart{margin:0 0 0 auto;height:100%;max-height:100%;width:min(470px,100%);max-width:100%;border:0;border-left:1px solid var(--line);background:var(--card);color:var(--text);padding:0}
+dialog.cart[open]{display:flex;flex-direction:column}
+dialog.cart::backdrop{background:rgba(0,0,0,.7)}
+.cart-head{display:flex;justify-content:space-between;align-items:center;padding:18px 20px;border-bottom:1px solid var(--line);background:var(--bg2)}
+.cart-head h2{font-size:1.3rem;margin:0}
+.cart-x{background:none;border:0;color:var(--text);font-size:1.8rem;line-height:1;cursor:pointer;padding:4px 10px;border-radius:99px}
+.cart-x:hover{background:var(--line)}
+.cart-body{flex:1;overflow:auto;padding:6px 20px}
+.cart-empty{color:var(--muted);text-align:center;padding:50px 10px}
+.ci{display:grid;grid-template-columns:56px 1fr;gap:12px;padding:14px 0;border-bottom:1px solid var(--line)}
+.ci img{width:56px;height:56px;border-radius:10px;object-fit:cover;background:var(--bg2)}
+.ci h4{font-size:.95rem;line-height:1.3;margin-bottom:2px}
+.ci small{color:var(--muted)}
+.ci-row{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-top:8px}
+.ci .stepper{padding:2px;min-width:112px}
+.ci .stepper button{width:30px;height:30px;font-size:1.1rem}
+.ci-rm{background:none;border:0;color:var(--muted);cursor:pointer;font:inherit;font-size:.82rem;text-decoration:underline}
+.cart-foot{padding:14px 20px 20px;border-top:1px solid var(--line);background:var(--bg2)}
+.cart-foot label{margin:8px 0 5px}
+.cart-foot textarea{min-height:56px}
+.cart-total{font-weight:800;margin:12px 0 2px}
+.cart-foot .btn{width:100%;justify-content:center;margin-top:12px}
+.cart-clear{background:none;border:0;color:var(--muted);cursor:pointer;font:inherit;font-size:.85rem;text-decoration:underline;margin-top:10px;display:block;margin-inline:auto}
+@media(max-width:520px){.nav .wa-hide{display:none}.cart-btn{padding:8px 12px}}
+
+/* Services */
+.services{background:var(--bg2);border-block:1px solid var(--line)}
+.svc-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px;counter-reset:s}
+.svc{counter-increment:s;background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:26px;transition:border-color .2s,transform .2s}
+.svc:hover{border-color:var(--accent);transform:translateY(-3px)}
+.svc::before{content:counter(s,decimal-leading-zero);display:block;font-weight:900;font-size:2.2rem;color:var(--accent);letter-spacing:-.03em;line-height:1;margin-bottom:14px}
+.svc h3{font-size:1.2rem;margin-bottom:8px}
+.svc p{color:var(--muted);font-size:.96rem}
+
+/* Gallery */
+.gallery-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:16px}
+.gallery-grid img{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:var(--radius);background:var(--card);border:1px solid var(--line)}
+
+/* Reviews */
+.rating{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin-bottom:30px;color:var(--muted)}
+.stars{color:var(--star);font-size:1.4rem;letter-spacing:2px}
+.rev-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(290px,1fr));gap:18px}
+.rev{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:26px}
+.rev .stars{font-size:1.05rem}
+.rev p{margin:10px 0 16px;color:var(--text)}
+.rev b{font-size:.95rem;color:var(--muted)}
+.rev-actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:32px}
+
+/* Visit */
+.visit{background:var(--bg2);border-top:1px solid var(--line)}
+.visit-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:44px}
+.info dt{font-weight:800;margin-top:20px}
+.info dd{color:var(--muted)}
+.info dd a:not(.btn){color:var(--accent);font-weight:700}
+.map{border:1px solid var(--line);width:100%;min-height:400px;height:100%;border-radius:var(--radius);background:var(--card);filter:invert(.92) hue-rotate(180deg) saturate(.7) brightness(.95)}
+@media(max-width:860px){.visit-grid{grid-template-columns:1fr}}
+
+/* Footer */
+footer{background:#000;color:var(--muted);padding:40px 0 100px;border-top:1px solid var(--line)}
+.foot{display:flex;justify-content:space-between;flex-wrap:wrap;gap:16px;font-size:.92rem}
+
+/* Floating WhatsApp */
+.fab{position:fixed;right:16px;bottom:16px;z-index:30;box-shadow:0 10px 30px rgba(0,0,0,.5);padding:14px 22px}
+
+/* PC planner dialog */
+dialog.planner{overflow:auto;border:1px solid var(--line);border-radius:24px;padding:0;width:min(580px,100% - 24px);max-height:calc(100% - 24px);color:var(--text);background:var(--card);box-shadow:0 30px 80px rgba(0,0,0,.7)}
+dialog.planner::backdrop{background:rgba(0,0,0,.78);backdrop-filter:blur(4px)}
+.pl-head{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:20px 24px;background:var(--bg2);color:var(--text);border-bottom:1px solid var(--line)}
+.pl-head h2{font-size:1.25rem;margin:0}
+.pl-head small{display:block;font-weight:500;color:var(--accent);font-size:.85rem}
+.pl-x{background:none;border:0;color:var(--text);font-size:1.8rem;line-height:1;cursor:pointer;padding:4px 10px;border-radius:99px}
+.pl-x:hover{background:var(--line)}
+.pl-bar{height:4px;background:var(--line)}
+.pl-bar i{display:block;height:100%;width:25%;background:var(--accent);transition:width .25s}
+.pl-body{padding:24px}
+.pl-step{display:none;border:0}
+.pl-step.on{display:block}
+.pl-step legend{font-weight:800;font-size:1.35rem;margin-bottom:4px}
+.pl-step .pl-sub{color:var(--muted);font-size:.93rem;margin-bottom:16px}
+.pl-h{font-size:1rem;font-weight:800;margin:20px 0 8px;color:var(--accent)}
+.pl-h:first-of-type{margin-top:0}
+.opts{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.opt{position:relative}
+.opt input{position:absolute;opacity:0;inset:0;width:100%;height:100%;cursor:pointer;margin:0}
+.opt span{display:block;border:1.5px solid var(--line);background:var(--bg2);border-radius:14px;padding:13px 15px;font-weight:700;line-height:1.3;transition:border-color .15s,background .15s}
+.opt span em{display:block;font-style:normal;font-weight:400;font-size:.84rem;color:var(--muted);margin-top:2px}
+.opt:hover span{border-color:#444450}
+.opt input:checked + span{border-color:var(--accent);background:var(--accent-soft)}
+.opt input:focus-visible + span{outline:3px solid var(--accent);outline-offset:2px}
+.pl-body textarea{min-height:76px}
+.pl-foot{display:flex;justify-content:space-between;gap:10px;padding:0 24px 24px}
+.pl-foot .btn{padding:13px 24px}
+.pl-foot .spacer{flex:1}
+.pl-summary{background:var(--bg2);border:1px solid var(--line);border-radius:14px;padding:14px 16px;font-size:.92rem;margin-bottom:6px;color:var(--muted)}
+@media(max-width:480px){.opts{grid-template-columns:1fr}}
+
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}.btn:hover,.svc:hover{transform:none}}
+</style>
+</head>
+<body>
+
+<!-- ==== SVG icon sprite ==== -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-wa" viewBox="0 0 24 24"><path fill="currentColor" d="M20.5 3.5A11.8 11.8 0 0 0 12 0C5.4 0 .1 5.3.1 11.9c0 2.1.5 4.1 1.6 5.9L0 24l6.4-1.7a11.9 11.9 0 0 0 5.6 1.4c6.6 0 11.9-5.3 11.9-11.9 0-3.2-1.2-6.200-3.400-8.300zM12 21.700c-1.800 0-3.500-.5-5-1.400l-.4-.2-3.800 1 1-3.700-.2-.4a9.800 9.800 0 0 1-1.500-5.200c0-5.400 4.400-9.800 9.900-9.800 2.600 0 5.100 1 6.900 2.900a9.700 9.700 0 0 1 2.900 6.900c0 5.400-4.400 9.900-9.800 9.900zm5.400-7.400c-.3-.1-1.800-.9-2-1-.3-.1-.5-.1-.7.100-.2.300-.8 1-.9 1.200-.2.200-.3.200-.6.100-.3-.1-1.200-.4-2.300-1.400-.8-.8-1.400-1.700-1.600-2-.2-.3 0-.4.100-.6l.4-.5c.1-.2.2-.3.300-.5.1-.2 0-.4 0-.5-.1-.1-.7-1.600-.9-2.200-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.100-.8.400-.3.300-1 1-1 2.500s1.100 2.900 1.200 3.100c.1.200 2.100 3.200 5.100 4.500.7.300 1.300.5 1.700.6.700.2 1.400.2 1.900.1.600-.1 1.800-.7 2-1.400.3-.7.300-1.300.2-1.400-.1-.1-.3-.2-.6-.3z"/></symbol>
+  <symbol id="i-cart" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M3 4h2l2.4 11.2a2 2 0 0 0 2 1.6h7.4a2 2 0 0 0 2-1.5L20.5 8H6"/><circle cx="9.5" cy="20" r="1.4" fill="currentColor"/><circle cx="17" cy="20" r="1.4" fill="currentColor"/></symbol>
+</svg>
+
+<header>
+  <div class="wrap nav">
+    <a href="#top" class="brand">Lakshmi Computer<small>Sivakasi</small></a>
+    <nav aria-label="Main">
+      <ul>
+        <li><a href="#pc-build">PC Build</a></li>
+        <li><a href="#parts">Parts</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#catalog">Catalog</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#reviews">Reviews</a></li>
+        <li><a href="#visit">Visit us</a></li>
+      </ul>
+    </nav>
+    <div class="nav-right">
+      <button type="button" class="cart-btn" id="cart-open" aria-label="Open cart"><svg><use href="#i-cart"/></svg><span>Cart</span><b id="cart-count">0</b></button>
+      <a class="btn btn-wa wa-link wa-hide" href="#" data-msg="Hi Lakshmi Computer, I need some information.">
+        <svg><use href="#i-wa"/></svg>WhatsApp
+      </a>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+
+<!-- ==== HERO + BOOKING ==== -->
+<div class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <span class="sign">Laptop · Desktop · CCTV · Custom PC</span>
+      <h1>Lakshmi <span>Computer</span></h1>
+      <p class="tamil">லக்ஷ்மி கம்ப்யூட்டர், சிவகாசி</p>
+      <p class="sub">Buy new laptops, desktops and CCTV cameras. Get your computer repaired, or have a PC built to your budget. Book in one minute on WhatsApp.</p>
+      <div class="hero-cta">
+        <a class="btn btn-wa wa-link" href="#" data-msg="Hi Lakshmi Computer, I want to know more about your products and services."><svg><use href="#i-wa"/></svg>Chat on WhatsApp</a>
+        <a class="btn btn-line call-link" href="#">Call the shop</a>
+      </div>
+      <ul class="chips">
+        <li>Sales</li><li>Service</li><li>CCTV installation</li><li>PC building</li>
+      </ul>
+    </div>
+
+    <!-- Booking form: builds a WhatsApp message -->
+    <div class="book" id="booking">
+      <h2>Book a visit or service</h2>
+      <p class="hint">Fill this in. We receive it on WhatsApp and reply.</p>
+      <div>
+        <label for="f-service">What do you need?</label>
+        <select id="f-service">
+          <option>Buy a laptop</option>
+          <option>Buy a desktop computer</option>
+          <option>Build a custom PC</option>
+          <option>CCTV camera installation</option>
+          <option>Laptop service / repair</option>
+          <option>Desktop service / repair</option>
+          <option>CCTV service / repair</option>
+          <option>Something else</option>
+        </select>
+
+        <label for="f-name">Your name</label>
+        <input id="f-name" type="text" autocomplete="name" placeholder="Your name">
+
+        <label for="f-when">When can you come?</label>
+        <select id="f-when">
+          <option>Today</option>
+          <option>Tomorrow</option>
+          <option>This week</option>
+          <option>Not sure yet</option>
+        </select>
+
+        <label for="f-note">Details (budget, problem, number of cameras)</label>
+        <textarea id="f-note" placeholder="Example: Laptop for college, budget around 40,000"></textarea>
+
+        <p class="err" id="f-err" role="alert"></p>
+        <button class="btn btn-wa" id="f-send" type="button"><svg><use href="#i-wa"/></svg>Send booking on WhatsApp</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ==== PC BUILD ==== -->
+<section id="pc-build" class="build">
+  <div class="wrap build-grid">
+    <div>
+      <h2>Tell us your budget. We build the PC.</h2>
+      <p>You choose what the PC is for. We select the parts, assemble, test and hand it over ready to use. Every part is chosen so you do not pay for what you do not need.</p>
+      <button type="button" class="btn btn-wa build-open"><svg><use href="#i-wa"/></svg>Plan my PC</button>
+    </div>
+    <div class="uses">
+      <div><strong>Office and billing</strong><span>Smooth, quiet and low on power use.</span></div>
+      <div><strong>Students and online classes</strong><span>Reliable for study, typing and video calls.</span></div>
+      <div><strong>Editing and design</strong><span>More RAM and a fast SSD for heavy software.</span></div>
+      <div><strong>Gaming</strong><span>Strong processor and graphics card for your budget.</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ==== PARTS SHOWCASE ==== -->
+<section id="parts">
+  <div class="wrap">
+    <h2>Choose your parts</h2>
+    <p class="lead">RAM, motherboards, storage, monitors and cabinets. Ask the price of any part on WhatsApp.</p>
+    <div class="parts-layout">
+      <div class="part part-big" data-part="cabinet">
+        <div class="part-media"><svg class="rgb-case" viewBox="0 0 300 400" role="img" aria-label="Animated RGB gaming cabinet">
+  <defs><filter id="bl" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="7"/></filter></defs>
+  <rect x="30" y="14" width="240" height="360" rx="16" fill="#101016" stroke="#2c2c36" stroke-width="3"/>
+  <rect x="42" y="26" width="216" height="336" rx="10" fill="#15151c"/>
+  <rect x="42" y="26" width="216" height="336" rx="10" fill="none" stroke="#ff2d95" stroke-width="2" class="pulse"/>
+  <circle cx="82" cy="82" r="36" fill="#ff2d95" opacity=".28" filter="url(#bl)"/><circle cx="82" cy="82" r="30" fill="#0b0b10" stroke="#ff2d95" stroke-width="3"/><g class="spin"><ellipse cx="82" cy="67.0" rx="6.0" ry="13.8" transform="rotate(0 82 82)" fill="#ff2d95" opacity=".9"/><ellipse cx="82" cy="67.0" rx="6.0" ry="13.8" transform="rotate(72 82 82)" fill="#ff2d95" opacity=".9"/><ellipse cx="82" cy="67.0" rx="6.0" ry="13.8" transform="rotate(144 82 82)" fill="#ff2d95" opacity=".9"/><ellipse cx="82" cy="67.0" rx="6.0" ry="13.8" transform="rotate(216 82 82)" fill="#ff2d95" opacity=".9"/><ellipse cx="82" cy="67.0" rx="6.0" ry="13.8" transform="rotate(288 82 82)" fill="#ff2d95" opacity=".9"/></g><circle cx="82" cy="82" r="5.4" fill="#0b0b10" stroke="#ff2d95" stroke-width="2"/>
+  <circle cx="82" cy="168" r="36" fill="#00e5ff" opacity=".28" filter="url(#bl)"/><circle cx="82" cy="168" r="30" fill="#0b0b10" stroke="#00e5ff" stroke-width="3"/><g class="spin slow"><ellipse cx="82" cy="153.0" rx="6.0" ry="13.8" transform="rotate(0 82 168)" fill="#00e5ff" opacity=".9"/><ellipse cx="82" cy="153.0" rx="6.0" ry="13.8" transform="rotate(72 82 168)" fill="#00e5ff" opacity=".9"/><ellipse cx="82" cy="153.0" rx="6.0" ry="13.8" transform="rotate(144 82 168)" fill="#00e5ff" opacity=".9"/><ellipse cx="82" cy="153.0" rx="6.0" ry="13.8" transform="rotate(216 82 168)" fill="#00e5ff" opacity=".9"/><ellipse cx="82" cy="153.0" rx="6.0" ry="13.8" transform="rotate(288 82 168)" fill="#00e5ff" opacity=".9"/></g><circle cx="82" cy="168" r="5.4" fill="#0b0b10" stroke="#00e5ff" stroke-width="2"/>
+  <circle cx="82" cy="254" r="36" fill="#7c4dff" opacity=".28" filter="url(#bl)"/><circle cx="82" cy="254" r="30" fill="#0b0b10" stroke="#7c4dff" stroke-width="3"/><g class="spin"><ellipse cx="82" cy="239.0" rx="6.0" ry="13.8" transform="rotate(0 82 254)" fill="#7c4dff" opacity=".9"/><ellipse cx="82" cy="239.0" rx="6.0" ry="13.8" transform="rotate(72 82 254)" fill="#7c4dff" opacity=".9"/><ellipse cx="82" cy="239.0" rx="6.0" ry="13.8" transform="rotate(144 82 254)" fill="#7c4dff" opacity=".9"/><ellipse cx="82" cy="239.0" rx="6.0" ry="13.8" transform="rotate(216 82 254)" fill="#7c4dff" opacity=".9"/><ellipse cx="82" cy="239.0" rx="6.0" ry="13.8" transform="rotate(288 82 254)" fill="#7c4dff" opacity=".9"/></g><circle cx="82" cy="254" r="5.4" fill="#0b0b10" stroke="#7c4dff" stroke-width="2"/>
+  <rect x="136" y="48" width="112" height="52" rx="6" fill="#1b1b24" stroke="#2c2c36"/>
+  <circle cx="206" cy="74" r="25" fill="#00e5ff" opacity=".28" filter="url(#bl)"/><circle cx="206" cy="74" r="19" fill="#0b0b10" stroke="#00e5ff" stroke-width="3"/><g class="spin slow"><ellipse cx="206" cy="64.5" rx="3.8" ry="8.7" transform="rotate(0 206 74)" fill="#00e5ff" opacity=".9"/><ellipse cx="206" cy="64.5" rx="3.8" ry="8.7" transform="rotate(72 206 74)" fill="#00e5ff" opacity=".9"/><ellipse cx="206" cy="64.5" rx="3.8" ry="8.7" transform="rotate(144 206 74)" fill="#00e5ff" opacity=".9"/><ellipse cx="206" cy="64.5" rx="3.8" ry="8.7" transform="rotate(216 206 74)" fill="#00e5ff" opacity=".9"/><ellipse cx="206" cy="64.5" rx="3.8" ry="8.7" transform="rotate(288 206 74)" fill="#00e5ff" opacity=".9"/></g><circle cx="206" cy="74" r="3.4" fill="#0b0b10" stroke="#00e5ff" stroke-width="2"/>
+  <rect x="146" y="58" width="9" height="34" rx="2" fill="#0b0b10" stroke="#ff2d95"/>
+  <rect x="160" y="58" width="9" height="34" rx="2" fill="#0b0b10" stroke="#7c4dff"/>
+  <rect x="146" y="58" width="9" height="8" rx="2" fill="#ff2d95" class="pulse"/>
+  <rect x="160" y="58" width="9" height="8" rx="2" fill="#7c4dff" class="pulse"/>
+  <rect x="124" y="196" width="130" height="46" rx="6" fill="#1b1b24" stroke="#2c2c36"/>
+  <circle cx="158" cy="219" r="22" fill="#ff2d95" opacity=".28" filter="url(#bl)"/><circle cx="158" cy="219" r="16" fill="#0b0b10" stroke="#ff2d95" stroke-width="3"/><g class="spin"><ellipse cx="158" cy="211.0" rx="3.2" ry="7.4" transform="rotate(0 158 219)" fill="#ff2d95" opacity=".9"/><ellipse cx="158" cy="211.0" rx="3.2" ry="7.4" transform="rotate(72 158 219)" fill="#ff2d95" opacity=".9"/><ellipse cx="158" cy="211.0" rx="3.2" ry="7.4" transform="rotate(144 158 219)" fill="#ff2d95" opacity=".9"/><ellipse cx="158" cy="211.0" rx="3.2" ry="7.4" transform="rotate(216 158 219)" fill="#ff2d95" opacity=".9"/><ellipse cx="158" cy="211.0" rx="3.2" ry="7.4" transform="rotate(288 158 219)" fill="#ff2d95" opacity=".9"/></g><circle cx="158" cy="219" r="2.9" fill="#0b0b10" stroke="#ff2d95" stroke-width="2"/>
+  <circle cx="214" cy="219" r="22" fill="#7c4dff" opacity=".28" filter="url(#bl)"/><circle cx="214" cy="219" r="16" fill="#0b0b10" stroke="#7c4dff" stroke-width="3"/><g class="spin slow"><ellipse cx="214" cy="211.0" rx="3.2" ry="7.4" transform="rotate(0 214 219)" fill="#7c4dff" opacity=".9"/><ellipse cx="214" cy="211.0" rx="3.2" ry="7.4" transform="rotate(72 214 219)" fill="#7c4dff" opacity=".9"/><ellipse cx="214" cy="211.0" rx="3.2" ry="7.4" transform="rotate(144 214 219)" fill="#7c4dff" opacity=".9"/><ellipse cx="214" cy="211.0" rx="3.2" ry="7.4" transform="rotate(216 214 219)" fill="#7c4dff" opacity=".9"/><ellipse cx="214" cy="211.0" rx="3.2" ry="7.4" transform="rotate(288 214 219)" fill="#7c4dff" opacity=".9"/></g><circle cx="214" cy="219" r="2.9" fill="#0b0b10" stroke="#7c4dff" stroke-width="2"/>
+  <rect x="124" y="244" width="130" height="3" rx="1.5" fill="#00e5ff" class="pulse"/>
+  <rect x="124" y="296" width="130" height="50" rx="6" fill="#0d0d12" stroke="#2c2c36"/>
+  <rect x="134" y="316" width="110" height="3" rx="1.5" fill="#ff2d95" class="pulse"/>
+  <rect x="54" y="352" width="192" height="3" rx="1.5" fill="#00e5ff" class="pulse"/>
+</svg></div>
+        <div class="part-body"><h3>Cabinets</h3><p>Basic, side glass and RGB gaming cabinets with fans in many colours.</p>
+        <a class="btn btn-wa wa-link" href="#" data-msg="Hi, I want the price and options for Cabinets. My budget is "><svg><use href="#i-wa"/></svg>Ask price</a></div>
+      </div>
+      <div class="parts-small">
+        <div class="part" data-part="ram">
+          <div class="part-media"><svg class="ph" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="16" width="56" height="26" rx="3"/><rect x="11" y="23" width="8" height="12" rx="1"/><rect x="24" y="23" width="8" height="12" rx="1"/><rect x="37" y="23" width="8" height="12" rx="1"/><rect x="50" y="23" width="4" height="12" rx="1"/><path d="M10 48h4M18 48h4M26 48h4M34 48h4M42 48h4M50 48h4"/></svg></div>
+          <div class="part-body"><h3>RAM</h3><p>DDR4 and DDR5 memory for laptops and desktops.</p>
+          <a class="btn btn-line wa-link" href="#" data-msg="Hi, I want the price and stock for RAM. Type and size: "><svg><use href="#i-wa"/></svg>Ask price</a></div>
+        </div>
+        <div class="part" data-part="motherboard">
+          <div class="part-media"><svg class="ph" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="8" y="8" width="48" height="48" rx="4"/><rect x="15" y="15" width="17" height="17" rx="2"/><path d="M40 14v20M46 14v20M52 14v20"/><rect x="15" y="40" width="20" height="8" rx="1"/><path d="M42 42h8M42 48h8"/></svg></div>
+          <div class="part-body"><h3>Motherboards</h3><p>Intel and AMD boards for every budget.</p>
+          <a class="btn btn-line wa-link" href="#" data-msg="Hi, I want the price and stock for Motherboards. Intel or AMD: "><svg><use href="#i-wa"/></svg>Ask price</a></div>
+        </div>
+        <div class="part" data-part="storage">
+          <div class="part-media"><svg class="ph" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="8" y="14" width="48" height="36" rx="5"/><rect x="15" y="21" width="20" height="10" rx="2"/><circle cx="46" cy="26" r="3"/><path d="M15 42h34"/></svg></div>
+          <div class="part-body"><h3>Storage</h3><p>SSD and hard disks, from 256 GB to 2 TB.</p>
+          <a class="btn btn-line wa-link" href="#" data-msg="Hi, I want the price and stock for SSD / hard disk. Size needed: "><svg><use href="#i-wa"/></svg>Ask price</a></div>
+        </div>
+        <div class="part" data-part="monitor">
+          <div class="part-media"><svg class="ph" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="9" width="54" height="36" rx="4"/><path d="M24 55h16M32 45v10"/></svg></div>
+          <div class="part-body"><h3>Monitors</h3><p>Office, school and gaming monitors.</p>
+          <a class="btn btn-line wa-link" href="#" data-msg="Hi, I want the price and stock for Monitors. Size and use: "><svg><use href="#i-wa"/></svg>Ask price</a></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ==== PRODUCTS ==== -->
+<section id="products">
+  <div class="wrap">
+    <h2>Products</h2>
+    <p class="lead">Tap "Ask price" on any item. It opens WhatsApp with the product already typed, and we send you today's price and stock.</p>
+
+    <div class="cat">
+      <div><h3>Laptops</h3><span class="tag">New &amp; budget options</span></div>
+      <ul>
+        <li>Student laptops</li>
+        <li>Office and business laptops</li>
+        <li>Gaming and editing laptops</li>
+        <li>Chargers, batteries, bags</li>
+      </ul>
+      <a class="btn btn-wa wa-link" href="#" data-msg="Hi, I want the price and stock for Laptops. My budget is "><svg><use href="#i-wa"/></svg>Ask price</a>
+    </div>
+
+    <div class="cat">
+      <div><h3>Desktop computers</h3><span class="tag">Branded &amp; assembled</span></div>
+      <ul>
+        <li>Branded desktops for home and office</li>
+        <li>Assembled PCs for shops and schools</li>
+        <li>Monitors, keyboards, mouse</li>
+        <li>UPS and power backup</li>
+      </ul>
+      <a class="btn btn-wa wa-link" href="#" data-msg="Hi, I want the price and stock for Desktop computers. My use is "><svg><use href="#i-wa"/></svg>Ask price</a>
+    </div>
+
+    <div class="cat">
+      <div><h3>Custom PC building</h3><span class="tag">Made to your budget</span></div>
+      <ul>
+        <li>Processor, motherboard, RAM choice</li>
+        <li>SSD and hard disk upgrades</li>
+        <li>Graphics cards</li>
+        <li>Cabinet, SMPS and cooling</li>
+      </ul>
+      <button type="button" class="btn btn-wa build-open"><svg><use href="#i-wa"/></svg>Get a quote</button>
+    </div>
+
+    <div class="cat">
+      <div><h3>CCTV cameras</h3><span class="tag">Supply + installation</span></div>
+      <ul>
+        <li>Dome and bullet cameras</li>
+        <li>DVR / NVR recorders</li>
+        <li>Hard disks, cables, power supply</li>
+        <li>Mobile viewing setup</li>
+      </ul>
+      <a class="btn btn-wa wa-link" href="#" data-msg="Hi, I want a CCTV quote. Number of cameras: "><svg><use href="#i-wa"/></svg>Get a quote</a>
+    </div>
+
+    <div class="cat">
+      <div><h3>Computer accessories</h3><span class="tag">Always in demand</span></div>
+      <ul>
+        <li>Pen drives, memory cards, hard disks</li>
+        <li>Printers and ink / toner</li>
+        <li>Routers and networking</li>
+        <li>Webcams, headsets, speakers</li>
+      </ul>
+      <a class="btn btn-wa wa-link" href="#" data-msg="Hi, I want the price for this accessory: "><svg><use href="#i-wa"/></svg>Ask price</a>
+    </div>
+  </div>
+</section>
+
+<!-- ==== CATALOG: search, categories, cart ==== -->
+<section id="catalog" hidden>
+  <div class="wrap">
+    <h2>Shop our products</h2>
+    <p class="lead">Search or pick a category, add items to your cart, then send the cart to us on WhatsApp. We reply with the price and stock.</p>
+    <div class="cat-bar"><input type="search" id="cat-search" placeholder="Search products (mouse, RAM, charger...)" aria-label="Search products" autocomplete="off"></div>
+    <div class="cat-tabs" id="cat-tabs" role="group" aria-label="Product categories"></div>
+    <p class="cat-count" id="cat-count" aria-live="polite"></p>
+    <div class="prod-grid" id="prod-grid"></div>
+    <div class="cat-more">
+      <button type="button" class="btn btn-line" id="load-more" hidden>Show more products</button>
+      <a class="btn btn-line" id="catalog-link" target="_blank" rel="noopener" href="#">View full catalog on WhatsApp</a>
+    </div>
+  </div>
+</section>
+
+<dialog class="cart" id="cart" aria-labelledby="cart-title">
+  <div class="cart-head"><h2 id="cart-title">Your cart</h2><button type="button" class="cart-x" id="cart-close" aria-label="Close cart">&times;</button></div>
+  <div class="cart-body" id="cart-items"></div>
+  <div class="cart-foot" id="cart-foot">
+    <label for="c-name">Your name</label>
+    <input id="c-name" type="text" autocomplete="name" placeholder="Your name">
+    <label for="c-note">Note (optional)</label>
+    <textarea id="c-note" placeholder="Example: I will come to the shop tomorrow evening"></textarea>
+    <p class="cart-total" id="cart-total"></p>
+    <p class="err" id="c-err" role="alert"></p>
+    <button type="button" class="btn btn-wa" id="cart-send"><svg><use href="#i-wa"/></svg>Send cart on WhatsApp</button>
+    <button type="button" class="cart-clear" id="cart-clear">Clear cart</button>
+  </div>
+</dialog>
+
+<button type="button" class="btn cart-fab" id="cart-fab" hidden><svg><use href="#i-cart"/></svg>View cart (<span id="cart-fab-n">0</span>)</button>
+
+<!-- ==== SERVICES ==== -->
+<section id="services" class="services">
+  <div class="wrap">
+    <h2>Service and repair</h2>
+    <p class="lead">Bring your device to the shop, or message us the problem first.</p>
+    <div class="svc-grid">
+      <div class="svc"><h3>Laptop repair</h3><p>Screen, keyboard, battery, charging and heating problems. Slow laptop? We check and tell you the cost before we start.</p></div>
+      <div class="svc"><h3>Desktop repair</h3><p>Not starting, no display, restarting again and again, hard disk and RAM faults.</p></div>
+      <div class="svc"><h3>Windows install and data</h3><p>Fresh Windows, software setup, virus removal and data backup.</p></div>
+      <div class="svc"><h3>CCTV service</h3><p>Camera not working, DVR errors, recording problems, adding more cameras to your setup.</p></div>
+      <div class="svc"><h3>Upgrades</h3><p>Add an SSD or more RAM and make an old computer fast again.</p></div>
+    </div>
+    <div style="margin-top:32px">
+      <a class="btn btn-wa wa-link" href="#" data-msg="Hi, I have a problem with my device. Details: "><svg><use href="#i-wa"/></svg>Send your problem on WhatsApp</a>
+    </div>
+  </div>
+</section>
+
+<!-- ==== GALLERY (hidden automatically if no photos are added) ==== -->
+<section id="gallery" hidden>
+  <div class="wrap">
+    <h2>Inside the shop</h2>
+    <p class="lead">Lakshmi Computer, Parasakthi Colony, Sivakasi.</p>
+    <div class="gallery-grid" id="gallery-grid"></div>
+  </div>
+</section>
+
+<!-- ==== REVIEWS ==== -->
+<section id="reviews">
+  <div class="wrap">
+    <h2>What customers say</h2>
+    <div class="rating">
+      <span class="stars" aria-hidden="true">★★★★★</span>
+      <span>Rated by customers on Google</span>
+    </div>
+    <div class="rev-grid" id="rev-grid"></div>
+    <div class="rev-actions">
+      <a class="btn btn-wa" id="see-reviews" target="_blank" rel="noopener" href="#">Read all reviews on Google</a>
+      <a class="btn btn-line" id="write-review" target="_blank" rel="noopener" href="#">Write a review</a>
+    </div>
+  </div>
+</section>
+
+<!-- ==== VISIT ==== -->
+<section id="visit" class="visit">
+  <div class="wrap">
+    <h2>Visit the shop</h2>
+    <p class="lead">Find us in Sivakasi. Open the map for directions.</p>
+    <div class="visit-grid">
+      <dl class="info">
+        <dt>Shop</dt>
+        <dd>Lakshmi Computer</dd>
+        <dt>Address</dt>
+        <dd id="addr"></dd>
+        <dt>Phone and WhatsApp</dt>
+        <dd><a id="phone-text" class="call-link" href="#"></a></dd>
+        <dt>Opening hours</dt>
+        <dd id="hours"></dd>
+        <dd style="margin-top:22px;display:flex;gap:12px;flex-wrap:wrap">
+          <a class="btn btn-wa" id="directions" target="_blank" rel="noopener" href="#">Get directions</a>
+          <a class="btn btn-line wa-link" href="#" data-msg="Hi, I am coming to your shop. Can you confirm you are open?"><svg><use href="#i-wa"/></svg>Check if open</a>
+        </dd>
+      </dl>
+      <iframe class="map" id="map" title="Lakshmi Computer location map" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+    </div>
+  </div>
+</section>
+
+</main>
+
+
+<dialog class="planner" id="planner" aria-labelledby="pl-title">
+  <div class="pl-head">
+    <div><h2 id="pl-title">Plan your PC</h2><small id="pl-count">Step 1 of 4</small></div>
+    <button type="button" class="pl-x" id="pl-close" aria-label="Close">&times;</button>
+  </div>
+  <div class="pl-bar" aria-hidden="true"><i id="pl-bar"></i></div>
+
+  <form id="pl-form" class="pl-body" onsubmit="return false">
+    <fieldset class="pl-step on" data-step="1">
+      <legend>What will you use the PC for?</legend>
+      <p class="pl-sub">Pick the main use.</p>
+      <div class="opts">
+        <label class="opt"><input type="radio" name="use" value="Office / billing work"><span>Office / billing<em>Tally, Excel, browsing</em></span></label>
+        <label class="opt"><input type="radio" name="use" value="Student / online classes"><span>Student<em>Classes, study, typing</em></span></label>
+        <label class="opt"><input type="radio" name="use" value="Video editing / design"><span>Editing / design<em>Photoshop, video, CAD</em></span></label>
+        <label class="opt"><input type="radio" name="use" value="Gaming"><span>Gaming<em>Needs a graphics card</em></span></label>
+        <label class="opt"><input type="radio" name="use" value="Shop / CCTV server"><span>Shop / CCTV server<em>Runs all day</em></span></label>
+        <label class="opt"><input type="radio" name="use" value="Not sure, need advice"><span>Not sure<em>Help me decide</em></span></label>
+      </div>
+    </fieldset>
+
+    <fieldset class="pl-step" data-step="2">
+      <legend>What is your budget?</legend>
+      <p class="pl-sub">A rough range is fine. We suggest parts to fit it.</p>
+      <div class="opts">
+        <label class="opt"><input type="radio" name="budget" value="Below ₹25,000"><span>Below ₹25,000</span></label>
+        <label class="opt"><input type="radio" name="budget" value="₹25,000 to ₹40,000"><span>₹25,000 to ₹40,000</span></label>
+        <label class="opt"><input type="radio" name="budget" value="₹40,000 to ₹60,000"><span>₹40,000 to ₹60,000</span></label>
+        <label class="opt"><input type="radio" name="budget" value="₹60,000 to ₹1,00,000"><span>₹60,000 to ₹1,00,000</span></label>
+        <label class="opt"><input type="radio" name="budget" value="Above ₹1,00,000"><span>Above ₹1,00,000</span></label>
+        <label class="opt"><input type="radio" name="budget" value="Not decided"><span>Not decided</span></label>
+      </div>
+    </fieldset>
+
+    <fieldset class="pl-step" data-step="3">
+      <legend>Parts and extras</legend>
+      <p class="pl-sub">Choose storage. RAM, motherboard and cabinet are optional, and we will suggest if you skip them.</p>
+
+      <h3 class="pl-h">Storage</h3>
+      <div class="opts">
+        <label class="opt"><input type="radio" name="storage" value="256 GB SSD"><span>256 GB SSD<em>Light use</em></span></label>
+        <label class="opt"><input type="radio" name="storage" value="512 GB SSD"><span>512 GB SSD<em>Most popular</em></span></label>
+        <label class="opt"><input type="radio" name="storage" value="1 TB SSD"><span>1 TB SSD<em>Fast and large</em></span></label>
+        <label class="opt"><input type="radio" name="storage" value="SSD + 1 TB hard disk"><span>SSD + hard disk<em>Lots of files</em></span></label>
+      </div>
+
+      <h3 class="pl-h">RAM</h3>
+      <div class="opts">
+        <label class="opt"><input type="radio" name="ram" value="8 GB RAM"><span>8 GB<em>Basic work</em></span></label>
+        <label class="opt"><input type="radio" name="ram" value="16 GB RAM"><span>16 GB<em>Most popular</em></span></label>
+        <label class="opt"><input type="radio" name="ram" value="32 GB RAM"><span>32 GB<em>Editing, heavy use</em></span></label>
+        <label class="opt"><input type="radio" name="ram" value="Suggest RAM for me"><span>Not sure<em>You suggest</em></span></label>
+      </div>
+
+      <h3 class="pl-h">Motherboard</h3>
+      <div class="opts">
+        <label class="opt"><input type="radio" name="board" value="Intel motherboard"><span>Intel</span></label>
+        <label class="opt"><input type="radio" name="board" value="AMD motherboard"><span>AMD</span></label>
+        <label class="opt"><input type="radio" name="board" value="Basic budget motherboard"><span>Basic / budget</span></label>
+        <label class="opt"><input type="radio" name="board" value="Suggest motherboard for me"><span>Not sure<em>You suggest</em></span></label>
+      </div>
+
+      <h3 class="pl-h">Cabinet</h3>
+      <div class="opts">
+        <label class="opt"><input type="radio" name="cabinet" value="Basic cabinet"><span>Basic cabinet</span></label>
+        <label class="opt"><input type="radio" name="cabinet" value="Cabinet with side glass"><span>Side glass</span></label>
+        <label class="opt"><input type="radio" name="cabinet" value="RGB gaming cabinet"><span>RGB gaming</span></label>
+        <label class="opt"><input type="radio" name="cabinet" value="Suggest cabinet for me"><span>Not sure<em>You suggest</em></span></label>
+      </div>
+
+      <h3 class="pl-h">Extras</h3>
+      <div class="opts">
+        <label class="opt"><input type="checkbox" name="extra" value="Monitor"><span>Monitor</span></label>
+        <label class="opt"><input type="checkbox" name="extra" value="Keyboard and mouse"><span>Keyboard + mouse</span></label>
+        <label class="opt"><input type="checkbox" name="extra" value="UPS"><span>UPS</span></label>
+        <label class="opt"><input type="checkbox" name="extra" value="Windows and Office installed"><span>Windows + Office</span></label>
+        <label class="opt"><input type="checkbox" name="extra" value="WiFi card"><span>WiFi</span></label>
+        <label class="opt"><input type="checkbox" name="extra" value="Dedicated graphics card"><span>Graphics card</span></label>
+      </div>
+    </fieldset>
+
+    <fieldset class="pl-step" data-step="4">
+      <legend>Last step</legend>
+      <p class="pl-sub">Check your choices, add your name and send.</p>
+      <div class="pl-summary" id="pl-summary"></div>
+      <label for="pl-name">Your name</label>
+      <input id="pl-name" type="text" autocomplete="name" placeholder="Your name">
+      <label for="pl-note">Anything else? (optional)</label>
+      <textarea id="pl-note" placeholder="Example: Need it before Diwali, prefer Intel"></textarea>
+    </fieldset>
+
+    <p class="err" id="pl-err" role="alert"></p>
+  </form>
+
+  <div class="pl-foot">
+    <button type="button" class="btn btn-line" id="pl-back">Back</button>
+    <span class="spacer"></span>
+    <button type="button" class="btn btn-wa" id="pl-next">Next</button>
+    <button type="button" class="btn btn-wa" id="pl-send" hidden><svg><use href="#i-wa"/></svg>Send on WhatsApp</button>
+  </div>
+</dialog>
+
+<footer>
+  <div class="wrap foot">
+    <span>© <span id="yr"></span> Lakshmi Computer, Sivakasi. All rights reserved.</span>
+    <span>Laptops · Desktops · CCTV · PC Building · Service</span>
+  </div>
+</footer>
+
+<a class="btn btn-wa fab wa-link" href="#" data-msg="Hi Lakshmi Computer, I need some information." aria-label="Chat on WhatsApp"><svg><use href="#i-wa"/></svg>Chat</a>
+
+<script src="products.js"></script>
+<script>
+/* =========================================================
+   EDIT THIS BLOCK ONLY. Everything else updates automatically.
+   ========================================================= */
+const CONFIG = {
+  // WhatsApp number with country code, digits only
+  whatsapp: "919952867976",
+  // Number shown on the page (same as above, formatted)
+  phoneDisplay: "+91 99528 67976",
+
+  address: "Perumal Complex, PSR Rd, Parasakthi Colony, Sivakasi, Tamil Nadu 626123",
+  hours: "Mon–Sat: 9:30 AM – 9:00 PM · Sunday: [update]",
+
+  // Exact shop location from Google Maps
+  lat: 9.4511587,
+  lng: 77.7934647,
+
+  // WhatsApp catalog link (opens on phones with WhatsApp)
+  catalogUrl: "https://wa.me/c/212931677536385",
+
+  // EASY MODE: paste the "Publish to web" CSV link of the client's Google Sheet here.
+  // The client then edits products in Google Sheets (photo + price) and the site updates itself.
+  // Leave "" to use the PRODUCTS list below instead.
+  sheetCsvUrl: "",
+
+  // PRODUCTS (optional manual list. Keep empty to show products only from the Google Sheet).
+  // category = tab name (items with the same category are grouped)
+  // image    = file inside images/products/  (leave "" to show an icon)
+  // price    = text such as "₹38,500" (leave "" to show "Price on request")
+  products: [],
+
+  // Shop photos: put image files in an "images" folder next to index.html
+  // Names WITHOUT extension. The site tries .jpg .jpeg .png .webp (any capitalisation)
+  photos: ["shop-1","shop-2","shop-3","shop-4","shop-5","shop-6"],
+  photoFolder: "images/",
+
+  // Replace with 3 to 5 REAL reviews copied from the Google Maps page
+  reviews: [
+    { name: "Customer name", stars: 5, text: "Replace with a real Google review about service quality." },
+    { name: "Customer name", stars: 5, text: "Replace with a real Google review about products or price." },
+    { name: "Customer name", stars: 5, text: "Replace with a real Google review about CCTV or PC building." }
+  ],
+
+  // Optional: paste the shop's Google "Write a review" link here (from Google Business Profile)
+  writeReviewUrl: ""
+};
+
+/* ---------- Do not edit below ---------- */
+const CONFIG_IMG = "images/";
+const wa = (msg) => "https://wa.me/" + CONFIG.whatsapp + "?text=" + encodeURIComponent(msg);
+const mapsUrl = "https://www.google.com/maps/search/?api=1&query=Lakshmi+computer+sivakasi&query_place_id=&center=" + CONFIG.lat + "," + CONFIG.lng;
+const mapsPin = "https://www.google.com/maps/search/?api=1&query=" + CONFIG.lat + "," + CONFIG.lng;
+
+// WhatsApp links
+document.querySelectorAll(".wa-link").forEach(a => {
+  a.href = wa(a.dataset.msg || "Hi Lakshmi Computer");
+  a.target = "_blank"; a.rel = "noopener";
+});
+// Phone links
+document.querySelectorAll(".call-link").forEach(a => { a.href = "tel:+" + CONFIG.whatsapp; });
+document.getElementById("phone-text").textContent = CONFIG.phoneDisplay;
+document.getElementById("addr").textContent = CONFIG.address;
+document.getElementById("hours").textContent = CONFIG.hours;
+document.getElementById("directions").href = mapsPin;
+document.getElementById("see-reviews").href = mapsPin;
+document.getElementById("write-review").href = CONFIG.writeReviewUrl || mapsPin;
+document.getElementById("map").src = "https://maps.google.com/maps?q=" + CONFIG.lat + "," + CONFIG.lng + "&z=17&output=embed";
+document.getElementById("yr").textContent = new Date().getFullYear();
+
+// Gallery: show only photos that exist (tries several file extensions)
+const gg = document.getElementById("gallery-grid");
+const exts = [".jpg",".jpeg",".png",".webp",".JPG",".JPEG",".PNG",".WEBP"];
+CONFIG.photos.forEach((base, i) => {
+  let k = 0;
+  const holder = document.createElement("div"); holder.hidden = true; holder.style.display = "contents";
+  gg.appendChild(holder);
+  const tryNext = () => {
+    if (k >= exts.length) { holder.remove(); return; }
+    const im = new Image();
+    im.alt = "Lakshmi Computer shop photo " + (i + 1);
+    im.onload = () => { holder.appendChild(im); holder.hidden = false; document.getElementById("gallery").hidden = false; };
+    im.onerror = tryNext;
+    im.src = CONFIG.photoFolder + base + exts[k++];
+  };
+  tryNext();
+});
+
+// Reviews
+const grid = document.getElementById("rev-grid");
+CONFIG.reviews.forEach(r => {
+  const d = document.createElement("div");
+  d.className = "rev";
+  const s = document.createElement("span"); s.className = "stars"; s.setAttribute("aria-label", r.stars + " out of 5 stars");
+  s.textContent = "★".repeat(r.stars) + "☆".repeat(5 - r.stars);
+  const p = document.createElement("p"); p.textContent = r.text;
+  const b = document.createElement("b"); b.textContent = r.name;
+  d.append(s, p, b); grid.appendChild(d);
+});
+
+// Booking form -> WhatsApp
+document.getElementById("f-send").addEventListener("click", () => {
+  const name = document.getElementById("f-name").value.trim();
+  const err = document.getElementById("f-err");
+  if (!name) { err.textContent = "Please enter your name."; document.getElementById("f-name").focus(); return; }
+  err.textContent = "";
+  const msg =
+    "Hello Lakshmi Computer, I would like to book:\n" +
+    "Service: " + document.getElementById("f-service").value + "\n" +
+    "Name: " + name + "\n" +
+    "When: " + document.getElementById("f-when").value + "\n" +
+    "Details: " + (document.getElementById("f-note").value.trim() || "-");
+  window.open(wa(msg), "_blank", "noopener");
+});
+
+
+// PC planner
+(function(){
+  const dlg=document.getElementById("planner"), form=document.getElementById("pl-form");
+  const steps=[...form.querySelectorAll(".pl-step")], total=steps.length;
+  const back=document.getElementById("pl-back"), next=document.getElementById("pl-next"), send=document.getElementById("pl-send");
+  const err=document.getElementById("pl-err"); let cur=0;
+
+  const val=n=>{const r=form.querySelector('input[name="'+n+'"]:checked');return r?r.value:""};
+  const extras=()=>[...form.querySelectorAll('input[name="extra"]:checked')].map(e=>e.value);
+
+  function summary(){
+    const ex=extras();
+    return "Use: "+(val("use")||"-")+"\nBudget: "+(val("budget")||"-")+"\nStorage: "+(val("storage")||"-")+"\nRAM: "+(val("ram")||"Suggest for me")+"\nMotherboard: "+(val("board")||"Suggest for me")+"\nCabinet: "+(val("cabinet")||"Suggest for me")+"\nExtras: "+(ex.length?ex.join(", "):"None");
+  }
+  function show(i){
+    cur=i; err.textContent="";
+    steps.forEach((st,k)=>st.classList.toggle("on",k===i));
+    document.getElementById("pl-count").textContent="Step "+(i+1)+" of "+total;
+    document.getElementById("pl-bar").style.width=((i+1)/total*100)+"%";
+    back.style.visibility=i===0?"hidden":"visible";
+    next.hidden=i===total-1; send.hidden=i!==total-1;
+    if(i===total-1) document.getElementById("pl-summary").innerText=summary();
+  }
+  const need={0:["use","Please choose what the PC is for."],1:["budget","Please choose a budget."],2:["storage","Please choose storage."]};
+  next.addEventListener("click",()=>{
+    const n=need[cur]; if(n&&!val(n[0])){err.textContent=n[1];return}
+    show(cur+1);
+  });
+  back.addEventListener("click",()=>show(cur-1));
+  send.addEventListener("click",()=>{
+    const name=document.getElementById("pl-name").value.trim();
+    if(!name){err.textContent="Please enter your name.";document.getElementById("pl-name").focus();return}
+    const note=document.getElementById("pl-note").value.trim();
+    const msg="Hello Lakshmi Computer, I want a custom PC built.\n"+summary()+"\nName: "+name+(note?"\nNote: "+note:"");
+    window.open(wa(msg),"_blank","noopener");
+    dlg.close();
+  });
+  document.querySelectorAll(".build-open").forEach(b=>b.addEventListener("click",()=>{
+    form.reset(); show(0); dlg.showModal();
+  }));
+  document.getElementById("pl-close").addEventListener("click",()=>dlg.close());
+  dlg.addEventListener("click",e=>{if(e.target===dlg)dlg.close()});
+})();
+
+// Parts photos: use images/ram.jpg, motherboard, storage, monitor, cabinet (.gif works too)
+(function(){
+  const pe=[".jpg",".jpeg",".png",".webp",".gif",".JPG",".JPEG",".PNG",".WEBP",".GIF"];
+  document.querySelectorAll("[data-part]").forEach(card=>{
+    const base=card.dataset.part;
+    const order=base==="cabinet"?[".gif",...pe]:pe;
+    let k=0;
+    (function next(){
+      if(k>=order.length) return;
+      const im=new Image();
+      im.alt=card.querySelector("h3").textContent;
+      im.onload=()=>card.querySelector(".part-media").replaceChildren(im);
+      im.onerror=next;
+      im.src=CONFIG_IMG+base+order[k++];
+    })();
+  });
+})();
+
+// Catalog: search + categories + cart (data from Google Sheet, products.js, or CONFIG.products)
+(function(){
+  const sec=document.getElementById("catalog"), tabs=document.getElementById("cat-tabs"), grid=document.getElementById("prod-grid");
+  const countEl=document.getElementById("cat-count"), more=document.getElementById("load-more"), search=document.getElementById("cat-search");
+  const dlg=document.getElementById("cart");
+  const PAGE=24;
+  const icon='<svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M32 6 56 19v26L32 58 8 45V19z"/><path d="M8 19l24 13 24-13M32 32v26"/></svg>';
+  const DEBUG=/[?&]debug/.test(location.search), logs=[];
+  function dbg(m){
+    console.log("[catalog] "+m); logs.push(m); if(!DEBUG) return;
+    let box=document.getElementById("cat-debug");
+    if(!box){ box=document.createElement("pre"); box.id="cat-debug"; box.style.cssText="position:fixed;left:8px;right:8px;bottom:8px;z-index:99;max-height:40vh;overflow:auto;background:#000;color:#9f9;padding:12px;font:12px/1.5 monospace;white-space:pre-wrap;border:1px solid #393;border-radius:8px"; document.body.appendChild(box) }
+    box.textContent=logs.join("\n");
+  }
+
+  function imgUrls(u){
+    u=(u||"").trim(); if(!u) return [];
+    const m=u.match(/drive\.google\.com\/(?:file\/d\/|open\?id=|uc\?(?:export=\w+&)?id=|thumbnail\?id=)([\w-]+)/);
+    if(m) return ["https://lh3.googleusercontent.com/d/"+m[1]+"=w800","https://drive.google.com/thumbnail?id="+m[1]+"&sz=w800","https://drive.google.com/uc?export=view&id="+m[1]];
+    if(/(1drv\.ms|onedrive\.live\.com)/.test(u)){ const b=btoa(u).replace(/=+$/,"").replace(/\//g,"_").replace(/\+/g,"-"); return ["https://api.onedrive.com/v1.0/shares/u!"+b+"/root/content"] }
+    if(/^https?:\/\//.test(u)||u.indexOf("/")>-1) return [u];
+    return ["images/products/"+u];
+  }
+  function priceNum(v){ const n=parseFloat(String(v||"").replace(/[^\d.]/g,"")); return isNaN(n)?0:n }
+  function money(v){
+    v=String(v||"").trim(); if(!v) return "";
+    if(/^[\d,]+(\.\d+)?$/.test(v)) return "₹"+Number(v.replace(/,/g,"")).toLocaleString("en-IN");
+    return v;
+  }
+  function parseCSV(t){
+    const rows=[]; let row=[],cell="",q=false;
+    for(let i=0;i<t.length;i++){
+      const c=t[i];
+      if(q){ if(c==='"'){ if(t[i+1]==='"'){cell+='"';i++} else q=false } else cell+=c }
+      else if(c==='"') q=true;
+      else if(c===",") {row.push(cell);cell=""}
+      else if(c==="\n"||c==="\r"){ if(c==="\r"&&t[i+1]==="\n") i++; row.push(cell);cell=""; rows.push(row); row=[] }
+      else cell+=c;
+    }
+    if(cell||row.length){row.push(cell);rows.push(row)}
+    return rows.filter(r=>r.some(x=>x.trim()));
+  }
+
+  // ----- state -----
+  let items=[], byId={}, cart={}, curCat="All", query="", shown=PAGE;
+  try{ cart=JSON.parse(localStorage.getItem("lc_cart_v1")||"{}")||{} }catch(e){ cart={} }
+  function saveCart(){ try{ localStorage.setItem("lc_cart_v1",JSON.stringify(cart)) }catch(e){} }
+  const slug=s=>String(s).toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"");
+  const qtyOf=id=>cart[id]||0;
+  const cartCount=()=>Object.values(cart).reduce((a,b)=>a+b,0);
+
+  // ----- product image helper -----
+  function makeImg(p,cls){
+    const srcs=imgUrls(p.image); const box=document.createElement("div"); if(cls) box.className=cls;
+    if(!srcs.length){ box.innerHTML=icon; return box }
+    let k=0; const im=new Image(); im.alt=p.name; im.referrerPolicy="no-referrer"; im.loading="lazy"; im.decoding="async";
+    im.onerror=()=>{ k++; if(k<srcs.length) im.src=srcs[k]; else { box.innerHTML=icon; dbg("IMAGE FAILED for \""+p.name+"\": "+(p.image||"")+" | tried: "+srcs.join("  ,  ")) } };
+    im.src=srcs[0]; box.appendChild(im); return box;
+  }
+
+  // ----- add/stepper -----
+  const actEls={};
+  function renderAct(id){
+    const el=actEls[id]; if(!el) return; el.innerHTML="";
+    const q=qtyOf(id);
+    if(!q){
+      const b=document.createElement("button"); b.type="button"; b.className="btn add-btn"; b.innerHTML='<svg><use href="#i-cart"/></svg>Add to cart';
+      b.addEventListener("click",()=>setQty(id,1)); el.appendChild(b);
+    } else el.appendChild(stepper(id));
+  }
+  function stepper(id){
+    const w=document.createElement("div"); w.className="stepper";
+    const m=document.createElement("button"); m.type="button"; m.textContent="−"; m.setAttribute("aria-label","Decrease quantity");
+    const n=document.createElement("span"); n.textContent=qtyOf(id);
+    const a=document.createElement("button"); a.type="button"; a.textContent="+"; a.setAttribute("aria-label","Increase quantity");
+    m.addEventListener("click",()=>setQty(id,qtyOf(id)-1)); a.addEventListener("click",()=>setQty(id,qtyOf(id)+1));
+    w.append(m,n,a); return w;
+  }
+  function setQty(id,q){
+    q=Math.max(0,Math.min(99,q)); if(q) cart[id]=q; else delete cart[id];
+    saveCart(); renderAct(id); updateBadges(); if(dlg.open) renderCart();
+  }
+  function updateBadges(){
+    const n=cartCount();
+    document.getElementById("cart-count").textContent=n;
+    document.getElementById("cart-fab-n").textContent=n;
+    document.getElementById("cart-fab").hidden=!n||dlg.open;
+  }
+
+  // ----- grid -----
+  function filtered(){
+    const words=query.toLowerCase().split(/\s+/).filter(Boolean);
+    return items.filter(p=>(curCat==="All"||p.category===curCat)&&words.every(w=>(p.name+" "+p.desc+" "+p.category).toLowerCase().includes(w)));
+  }
+  function card(p){
+    const price=money(p.price);
+    const c=document.createElement("article"); c.className="prod";
+    const media=makeImg(p,"prod-img");
+    const body=document.createElement("div"); body.className="prod-body";
+    const cat=document.createElement("span"); cat.className="prod-cat"; cat.textContent=p.category;
+    const h=document.createElement("h3"); h.textContent=p.name;
+    const d=document.createElement("p"); d.className="prod-desc"; d.textContent=p.desc||"";
+    const pr=document.createElement("div"); pr.className="prod-price"; pr.textContent=price||"Price on request";
+    if(!price) pr.style.cssText="font-size:.92rem;font-weight:600;color:var(--muted)";
+    const act=document.createElement("div"); act.className="prod-act"; actEls[p.id]=act;
+    body.append(cat,h,d,pr,act); c.append(media,body); renderAct(p.id); return c;
+  }
+  function renderGrid(){
+    const list=filtered(); grid.innerHTML="";
+    const frag=document.createDocumentFragment(); list.slice(0,shown).forEach(p=>frag.appendChild(card(p))); grid.appendChild(frag);
+    countEl.textContent=list.length?("Showing "+Math.min(shown,list.length)+" of "+list.length+" products"):"";
+    more.hidden=shown>=list.length;
+    if(!list.length){ const n=document.createElement("p"); n.className="no-res"; n.textContent="No products found. Try another word, or ask us on WhatsApp."; grid.appendChild(n) }
+  }
+  function renderTabs(){
+    tabs.innerHTML=""; const cats=["All"]; items.forEach(p=>{ if(!cats.includes(p.category)) cats.push(p.category) });
+    cats.forEach(n=>{
+      const cnt=n==="All"?items.length:items.filter(p=>p.category===n).length;
+      const b=document.createElement("button"); b.type="button"; b.dataset.cat=n; b.setAttribute("aria-pressed",String(n===curCat));
+      b.append(n); const s=document.createElement("span"); s.className="n"; s.textContent=cnt; b.appendChild(s);
+      b.addEventListener("click",()=>{ curCat=n; shown=PAGE; tabs.querySelectorAll("button").forEach(x=>x.setAttribute("aria-pressed",String(x.dataset.cat===n))); renderGrid() });
+      tabs.appendChild(b);
+    });
+  }
+  more.addEventListener("click",()=>{ shown+=PAGE; renderGrid() });
+  let tm; search.addEventListener("input",()=>{ clearTimeout(tm); tm=setTimeout(()=>{ query=search.value.trim(); shown=PAGE; renderGrid() },150) });
+
+  // ----- cart drawer -----
+  const itemsEl=document.getElementById("cart-items"), foot=document.getElementById("cart-foot");
+  function lines(){ return Object.keys(cart).filter(id=>byId[id]).map(id=>({p:byId[id],q:cart[id]})) }
+  function totalInfo(ls){
+    if(!ls.length) return {text:"",all:false};
+    const priced=ls.filter(x=>priceNum(x.p.price)>0);
+    if(priced.length!==ls.length) return {text:"Prices will be confirmed by the shop.",all:false};
+    const t=ls.reduce((a,x)=>a+priceNum(x.p.price)*x.q,0);
+    return {text:"Total: ₹"+t.toLocaleString("en-IN"),all:true,total:t};
+  }
+  function renderCart(){
+    const ls=lines(); itemsEl.innerHTML="";
+    foot.hidden=!ls.length;
+    if(!ls.length){ const e=document.createElement("p"); e.className="cart-empty"; e.textContent="Your cart is empty. Add products and send the list to us on WhatsApp."; itemsEl.appendChild(e); return }
+    ls.forEach(({p,q})=>{
+      const row=document.createElement("div"); row.className="ci";
+      row.appendChild(makeImg(p,""));  // plain box holding the image
+      row.firstChild.style.cssText="width:56px;height:56px;border-radius:10px;overflow:hidden;background:var(--bg2);display:grid;place-items:center";
+      const im=row.firstChild.querySelector("img"); if(im){ im.style.cssText="width:56px;height:56px;object-fit:cover" }
+      const info=document.createElement("div");
+      const h=document.createElement("h4"); h.textContent=p.name;
+      const sm=document.createElement("small"); sm.textContent=money(p.price)?money(p.price)+" each":"Price on request";
+      const r=document.createElement("div"); r.className="ci-row";
+      const st=document.createElement("div"); st.className="stepper";
+      const m=document.createElement("button"); m.type="button"; m.textContent="−"; m.setAttribute("aria-label","Decrease quantity");
+      const n=document.createElement("span"); n.textContent=q;
+      const a=document.createElement("button"); a.type="button"; a.textContent="+"; a.setAttribute("aria-label","Increase quantity");
+      m.addEventListener("click",()=>setQty(p.id,q-1)); a.addEventListener("click",()=>setQty(p.id,q+1)); st.append(m,n,a);
+      const rm=document.createElement("button"); rm.type="button"; rm.className="ci-rm"; rm.textContent="Remove"; rm.addEventListener("click",()=>setQty(p.id,0));
+      r.append(st,rm); info.append(h,sm,r); row.appendChild(info); itemsEl.appendChild(row);
+    });
+    document.getElementById("cart-total").textContent=totalInfo(ls).text;
+  }
+  function openCart(){ renderCart(); if(!dlg.open) dlg.showModal(); updateBadges() }
+  document.getElementById("cart-open").addEventListener("click",openCart);
+  document.getElementById("cart-fab").addEventListener("click",openCart);
+  document.getElementById("cart-close").addEventListener("click",()=>dlg.close());
+  dlg.addEventListener("close",updateBadges);
+  dlg.addEventListener("click",e=>{ if(e.target===dlg) dlg.close() });
+  document.getElementById("cart-clear").addEventListener("click",()=>{
+    if(!confirm("Remove all items from the cart?")) return;
+    const ids=Object.keys(cart); cart={}; saveCart(); ids.forEach(renderAct); updateBadges(); renderCart();
+  });
+  document.getElementById("cart-send").addEventListener("click",()=>{
+    const ls=lines(), err=document.getElementById("c-err");
+    if(!ls.length) return;
+    const name=document.getElementById("c-name").value.trim();
+    if(!name){ err.textContent="Please enter your name."; document.getElementById("c-name").focus(); return }
+    err.textContent="";
+    const note=document.getElementById("c-note").value.trim();
+    const body=ls.map(({p,q},i)=>(i+1)+". "+p.name+" x "+q+(money(p.price)?" ("+money(p.price)+" each)":"")).join("\n");
+    const t=totalInfo(ls);
+    const msg="Hello Lakshmi Computer, I would like to order:\n\n"+body+"\n\n"+(t.all?t.text+"\n":"")+"Name: "+name+(note?"\nNote: "+note:"")+"\n\nPlease confirm price and stock.";
+    window.open(wa(msg),"_blank","noopener");
+  });
+
+  // ----- load data -----
+  function setItems(list){
+    items=list.filter(p=>p.name).map(p=>({category:p.category||"Other",name:p.name,price:p.price||"",image:p.image||"",desc:p.desc||p.description||""}));
+    byId={}; const seen={};
+    items.forEach(p=>{ let id=slug(p.name)||"item", k=id, n=2; while(seen[k]) k=id+"-"+(n++); seen[k]=1; p.id=k; byId[k]=p });
+    Object.keys(cart).forEach(id=>{ if(!byId[id]) delete cart[id] }); saveCart();
+    if(!items.length){ sec.hidden=true; updateBadges(); return }
+    sec.hidden=false; document.getElementById("catalog-link").href=CONFIG.catalogUrl||"#";
+    renderTabs(); renderGrid(); updateBadges(); dbg("Products loaded: "+items.length);
+  }
+  const local=()=>(window.PRODUCTS&&window.PRODUCTS.length?window.PRODUCTS:(CONFIG.products||[]));
+  if(!CONFIG.sheetCsvUrl){ setItems(local()); return }
+  dbg("Loading sheet: "+CONFIG.sheetCsvUrl);
+  fetch(CONFIG.sheetCsvUrl).then(r=>{ dbg("Sheet response status: "+r.status); return r.ok?r.text():Promise.reject(new Error("HTTP "+r.status)) }).then(t=>{
+    if(/^\s*<(!doctype|html)/i.test(t)){ dbg("ERROR: got a web page instead of CSV"); setItems(local()); return }
+    const rows=parseCSV(t); const head=rows.shift().map(h=>h.trim().toLowerCase());
+    const get=(r,n)=>{const i=head.indexOf(n);return i<0?"":(r[i]||"").trim()};
+    const list=rows.map(r=>({category:get(r,"category"),name:get(r,"name"),price:get(r,"price"),image:get(r,"image"),desc:get(r,"description"),show:get(r,"show").toLowerCase()}))
+      .filter(p=>p.name&&!["no","n","hide","sold","sold out"].includes(p.show));
+    dbg("Sheet rows used: "+list.length); setItems(list.length?list:local());
+  }).catch(e=>{ dbg("FETCH FAILED: "+(e&&e.message?e.message:e)); setItems(local()) });
+})();
+
+// SEO: LocalBusiness structured data
+const ld = {
+  "@context": "https://schema.org",
+  "@type": "ComputerStore",
+  "name": "Lakshmi Computer",
+  "description": "Laptop, desktop and CCTV sales and service, and custom PC building in Sivakasi.",
+  "telephone": "+" + CONFIG.whatsapp,
+  "address": { "@type": "PostalAddress", "streetAddress": "Perumal Complex, PSR Rd, Parasakthi Colony", "postalCode": "626123", "addressLocality": "Sivakasi", "addressRegion": "Tamil Nadu", "addressCountry": "IN" },
+  "geo": { "@type": "GeoCoordinates", "latitude": CONFIG.lat, "longitude": CONFIG.lng },
+  "hasMap": mapsPin
+};
+const sc = document.createElement("script"); sc.type = "application/ld+json"; sc.textContent = JSON.stringify(ld);
+document.head.appendChild(sc);
+</script>
+</body>
+</html>
